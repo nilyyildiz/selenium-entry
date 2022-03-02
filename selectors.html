@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header {
+            font: size 45px;
+            color:gold;
+        }
+
+        .course h2{
+            color:aqua;
+        }
+
+        .course.ruby{
+            background-color: red;
+        }
+
+        #username {
+            border: 1px solid red;
+        }
+
+        input[type="text"]{
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="container">
+        <h1 id="header">kurslar</h1>
+        <hr>
+        <div class="course python">
+            <h2>python</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, voluptatum?</p>
+        </div>
+
+        <div class="course ruby">
+            <h2>ruby</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, voluptatum?</p>
+        </div>
+
+        <div class="course java">
+            <h2>java</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, voluptatum?</p>
+        </div>
+
+        <div>
+            <form>
+               username: <input type="text" name="username" id="username"><br/>
+                password:<input type="text" name="passw" id="passw"><br/>
+            <input type="submit" value="login">
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
